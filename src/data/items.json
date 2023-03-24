@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1",
+    "name": "Apple Watch",
+    "model": "Series 5 SE",
+    "price": "$529.99",
+    "img-url": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/71+fj-NuMwL._AC_SL1500_.jpg",
+    "about" : "Apple Watch SE GPS Model lets you call, text, and get directions from your wrist, while leaving your phone in your pocket. It offers multiple connectivity options, including: Bluetooth, Wi-Fi, and NFC to suit your needs, whatever they might be."
+  },
+  {
+    "id": "2",
+    "name": "Sony ZX330BT",
+    "model": "Light Grey",
+    "price": "$39.99",
+    "img-url": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/718MAMpGdoS._AC_SL1500_.jpg",
+    "about" : "Wireless Bluetooth streaming with NFC one-touch, 30mm driver units, 20Hz-20kHz frequency resp"
+  },
+  {
+    "id": "3",
+    "name": "iPhone 11",
+    "model": "Serious Black",
+    "price": "$619.99",
+    "img-url": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/51Beo+N7ySL._AC_SY300_SX300_.jpg",
+    "about" : "Hybrid technology that is made of a TPU bumper with a durable PC back,Crystal clear transparency flaunts original phone design"
+  },
+  {
+    "id": "4",
+    "name": "iPhone 11",
+    "model": "Subway Blue",
+    "price": "$619.99",
+    "img-url": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/61k-gTEf8EL._AC_SY741_.jpg",
+     "about" : "Hybrid technology that is made of a TPU bumper with a durable PC back,Crystal clear transparency flaunts original phone design"
+  },
+  {
+    "id": "5",
+    "name": "Macbook Pro 16' ",
+    "model": "Silver M1-Pro",
+    "price": "$3249.99",
+    "img-url": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/619L9jf3-rL._AC_SX466_.jpg",
+    "about" : "The Apple M1 chip gives the 16-inch MacBook Pro speed and power beyond belief. With up to 2.8x CPU performance. Up to 5x the graphics speed. Our most advanced Neural Engine for up to 11x faster machine learning. And up to 20 hours of battery life — the longest of any Mac ever. It’s our most popular pro notebook, taken to a whole new level."
+  },
+  {
+    "id": "6",
+    "name": "Beats",
+    "model": "Beats Studio 3",
+    "price": "$175.99",
+    "img-url": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/61Xvn9KUgYL._AC_SL1500_.jpg",
+    "about" : "Beats Studio3 Wireless headphones deliver a premium listening experience with Pure Adaptive Noise Canceling (Pure ANC) to actively block external noise, and real-time audio calibration to preserve clarity, range, and emotion. It continuously pinpoints external sounds to block while automatically responding to individual fit in real-time, optimizing sound output to preserve a premium listening experience. The Apple W1 chip adds long-lasting endurance, with up to 22 hours of battery life for all-day full-featured playback with Pure ANC on. Pure ANC off for low power mode provides up to 40 hours of playback. With Fast Fuel, a 10-minute charge gives 3 hours of playback when battery is low. Their adjustable, secure-fit ear cups are custom-tuned to deliver an exceptional listening experience, while the streamlined, lightweight, durable headband is reinforced with stainless steel for long-lasting comfort and stability. Beats Studio3 Wireless are compatible with iOS and Android devices. They also include a 3.5mm RemoteTalk cable, carrying case, and USB charging cable."
+  },
+  {
+    "id": "7",
+    "name": "iPhone 11",
+    "model": "product Red",
+    "price": "$619.99",
+    "img-url": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/51wbAAz5O6L._AC_SX679_.jpg",
+    "about": "Hybrid technology that is made of a TPU bumper with a durable PC back,Crystal clear transparency flaunts original phone design"
+  }, {
+    "id": "8",
+    "name": "iPhone 11",
+    "model": "Milky White",
+    "price": "$619.99",
+    "img-url": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/61vPlQs096L._AC_SX679_.jpg",
+    "about": "Hybrid technology that is made of a TPU bumper with a durable PC back,Crystal clear transparency flaunts original phone design"
+  }
+]
