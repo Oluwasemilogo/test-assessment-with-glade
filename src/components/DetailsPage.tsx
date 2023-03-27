@@ -32,7 +32,7 @@ export function DetailsPage() {
         <div className="details-text">
           <h1 className="details-name">{item.name}</h1>
           <p className="details-model">{item.model}</p>
-          <p className="details-price">{item.price}</p>
+          <p className="details-price">${item.price}</p>
           <p className="details-about">{item.about}</p>
           <Link
             to="/cart"

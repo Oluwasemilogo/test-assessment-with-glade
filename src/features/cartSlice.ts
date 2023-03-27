@@ -19,6 +19,7 @@ export interface Item {
   "img-url": string;
   about: string;
   description: string;
+  priceId: string;
 }
 
 export const cartSlice = createSlice({
@@ -43,12 +44,16 @@ export const cartSlice = createSlice({
     removeFromCart(state, action: PayloadAction<Item>) {
       const item = action.payload;
       const checkExisting = state.items.find((i) => i.id === item.id);
-      if (checkExisting) {
+      if (checkExisting?.quantity === 1) {
         const index = state.items.indexOf(checkExisting);
         state.items.splice(index, 1);
         state.totalPrice -=
           Number(checkExisting.price.slice(0, 1)) * checkExisting.quantity;
-        checkExisting.quantity--;
+      } else if (checkExisting && checkExisting.quantity > 1) {
+        const index = state.items.indexOf(checkExisting);
+        checkExisting.quantity -= 1;
+        state.totalPrice -= Number(checkExisting.price.slice(0, 1));
+        state.items[index] = checkExisting;
       }
     },
   },

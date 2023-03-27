@@ -32,7 +32,7 @@ export function Homepage() {
                   <div className="items-details">
                     <h2 className="name">{item.name}</h2>
                     <p className="model">{item.model}</p>
-                    <p className="price">{item.price}</p>
+                    <p className="price">${item.price}</p>
                   </div>
                 </div>
               </div>
