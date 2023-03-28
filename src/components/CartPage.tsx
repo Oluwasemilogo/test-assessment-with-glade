@@ -41,7 +41,7 @@ export function CartPage() {
 
   return (
     <div className="cartPage-overall-container">
-      <div className="cart-session">
+      
         <h1 className="cartPage-header">Check your Cart Items</h1>
         {items.map((item: Item) => (
           <div key={item.name} className="cartPage-container">
@@ -79,10 +79,6 @@ export function CartPage() {
             </div>
           </div>
         ))}
-      </div>
-      <div className="cartPage-checkout">
-        <h2 className="cartPage-name">Cart Checkout</h2>
-        <p className="cartPage-total">Cart Total</p>
         <div className="cartPage-checkout-btn-container">
           <button
             className="cartPage-checkout-btn"
@@ -90,8 +86,12 @@ export function CartPage() {
           >
             Checkout
           </button>
+          
         </div>
       </div>
-    </div>
+  
+        
+   
+
   );
 }
