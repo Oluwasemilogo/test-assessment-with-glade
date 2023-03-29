@@ -3,16 +3,14 @@ import { useParams } from "react-router-dom";
 import "../App.css";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { addToCart, removeFromCart } from "../features/cartSlice";
+import { addToCart } from "../features/cartSlice";
 
 export function DetailsPage() {
   const dispatch = useDispatch();
   const items = useSelector((state: any) => state.cart.items);
   const { name } = useParams();
-  // Find the item that matches the name parameter
   const item = data.find((item) => item.name === name);
   if (!item) {
-    // If the item is not found, display an error message
     return <p>Item not found</p>;
   }
 
